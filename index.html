@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="main">To-Do List</h1>
+    <br />
+    <div id="container">
+        <div id="add">
+            <h2>Додати справу : </h2>
+            <input id="inputAdd" type="text" placeholder="Введіть нову справу">
+            <button id="btnAdd">Додати</button>
+        </div>
+        <div id="delete">
+            <h2>Видалити справу : </h2>
+            <input id="inputDelete" type="text" placeholder="Введіть ID">
+            <button id="btnDelete">Видалити</button>
+        </div>
+        <div id="modify">
+            <h2>Змінити справу : </h2>
+            <input id="inputModify" type="text" placeholder="Введіть ID">
+            <button id="btnModify">Змінити</button>
+            <br />
+            <div id="modifyValue">
+                <input id="inputModifyValue" type="text" placeholder="Введіть нову назву справи" disabled>
+                <button id="btnModifyValue" disabled>Змінити назву</button>
+            </div>
+        </div>
+        <div id="clear">
+            <h2>Очистити список справ : </h2>
+            <button id="btnClear">Очистити</button>
+        </div>
+    </div>
+    <div id="containerList">
+        <h1>Список справ :</h1>
+        <div id="column">id&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspСправа
+        </div>
+        <div id="list">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

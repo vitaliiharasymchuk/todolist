@@ -1,0 +1,85 @@
+body {
+    background: url(img/background.png);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+#main {
+    font-size:72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#containerList {
+    margin-top: 100px;
+}
+
+#modifyValue{
+    display: flex;
+    margin-top: 10px;
+}
+
+button {
+    border: 0;
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#column {
+font-size: 28px;
+}
+
+#btnAdd {
+    background-color: rgb(147, 240, 9);
+}
+
+#btnDelete {
+    background-color: rgb(240, 9, 40);
+}
+
+#btnModify {
+    background-color: rgb(63, 9, 240);
+}
+
+#btnModifyValue {
+    margin-left: 4px;
+    background-color: rgb(63, 9, 240);
+}
+
+#btnClear {
+   background-color: black;
+   color:blanchedalmond; 
+}
+
+input {
+    height: 50px;
+    font-size: 20px;
+}
+
+#inputAdd::placeholder {
+    color: gray;
+}
+#inputAdd {
+    width: 350px;
+    background-color: rgba(147, 240, 9, 0.2);
+}
+#inputDelete {
+    width: 150px;
+    background-color: rgba(240, 9, 40, 0.2);
+}
+#inputModify {
+    width: 150px;
+    background-color: rgba(63, 9, 240, 0.2);
+}
+#inputModifyValue {
+        width: 350px;
+        background-color: rgba(63, 9, 240, 0.2);
+}
