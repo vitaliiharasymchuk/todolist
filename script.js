@@ -37,7 +37,7 @@ function synchronizationFromStorage() {
     let syncMap = new Map();
     for (let key in localStorage) {
         if (!localStorage.hasOwnProperty(key)) {
-            continue; // пропустит такие ключи, как "setItem", "getItem" и так далее
+            continue;
         }
         syncMap.set(key, localStorage.getItem(key));
     }
